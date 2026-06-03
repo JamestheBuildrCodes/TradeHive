@@ -46,7 +46,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="#waitlist"
+                  href="/signup"
                   className={`mt-6 ${plan.featured ? "btn-primary" : "btn-ghost"} w-full justify-center`}
                 >
                   {plan.cta}
@@ -59,7 +59,7 @@ export default function Pricing() {
         <Reveal delay={120}>
           <p className="mt-8 flex items-center justify-center gap-2 text-sm text-[var(--th-faint)]">
             <Coins width={16} height={16} className="text-[var(--th-accent)]" />
-            Plus creator subscriptions, marketplace and broker partnerships — more ways to earn in the hive.
+            Plus creator subscriptions, marketplace and broker partnerships — more ways to earn on Tickrr.
           </p>
         </Reveal>
       </div>

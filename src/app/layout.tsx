@@ -15,10 +15,10 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tradehive.app"),
-  title: "TradeHive — Where traders learn, talk, and trade together",
+  metadataBase: new URL("https://tickrr.app"),
+  title: "Tickrr — Where traders learn, talk, and trade together",
   description:
-    "TradeHive is the social trading platform with verified track records, global rankings, copy trading, and an AI co-pilot that reads your charts. Forex, Crypto, Synthetics & Stocks.",
+    "Tickrr is the social trading platform with verified track records, global rankings, copy trading, and an AI co-pilot that reads your charts. Forex, Crypto, Synthetics & Stocks.",
   keywords: [
     "social trading",
     "copy trading",
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     "forex",
     "crypto",
     "trading signals",
-    "TradeHive",
+    "Tickrr",
   ],
   openGraph: {
-    title: "TradeHive — The social network for serious traders",
+    title: "Tickrr — The social network for serious traders",
     description:
-      "Verified track records. Global rankings. Copy trading. AI chart analysis. Join the hive.",
+      "Verified track records. Global rankings. Copy trading. AI chart analysis. Join Tickrr.",
     type: "website",
   },
 };

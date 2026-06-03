@@ -29,7 +29,7 @@ export default function Footer() {
               <span className="grid place-items-center w-9 h-9 rounded-xl glow-ring text-[var(--th-primary)]">
                 <HiveLogo width={22} height={22} />
               </span>
-              <span className="text-lg">Trade<span className="th-gradient-text">Hive</span></span>
+              <span className="text-lg">Tick<span className="th-gradient-text">rr</span></span>
             </a>
             <p className="mt-4 max-w-xs text-sm text-[var(--th-muted)]">
               The social trading platform where verified traders learn, talk, and trade together.
@@ -56,10 +56,10 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[var(--th-faint)]">
-            © {new Date().getFullYear()} TradeHive. All rights reserved.
+            © {new Date().getFullYear()} Tickrr. All rights reserved.
           </p>
           <p className="max-w-2xl text-[0.7rem] leading-relaxed text-[var(--th-faint)] sm:text-right">
-            Trading involves substantial risk of loss and is not suitable for every investor. TradeHive
+            Trading involves substantial risk of loss and is not suitable for every investor. Tickrr
             provides social, educational and informational tools only — not investment advice. Past
             performance is not indicative of future results.
           </p>

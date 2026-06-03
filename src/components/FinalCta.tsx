@@ -1,6 +1,5 @@
 import Reveal from "@/components/Reveal";
-import WaitlistForm from "@/components/WaitlistForm";
-import { HiveLogo } from "@/components/icons";
+import { HiveLogo, ArrowRight } from "@/components/icons";
 
 export default function FinalCta() {
   return (
@@ -18,14 +17,16 @@ export default function FinalCta() {
               <HiveLogo width={30} height={30} />
             </span>
             <h2 className="mt-6 text-3xl sm:text-4xl font-bold tracking-tight">
-              Join the <span className="th-gradient-text">hive</span>
+              Join <span className="th-gradient-text">Tickrr</span>
             </h2>
             <p className="mt-3 max-w-xl mx-auto text-[var(--th-muted)] text-lg">
-              Get early access, a founder badge, and a front-row seat as we build the home for serious
-              traders. No spam — just your invite.
+              Create your account and start trading with verified track records, global rankings, and AI-powered insights.
             </p>
             <div className="mt-8 max-w-md mx-auto">
-              <WaitlistForm />
+              <a href="/signup" className="btn-primary w-full justify-center">
+                Create your account
+                <ArrowRight width={18} height={18} />
+              </a>
             </div>
           </div>
         </Reveal>

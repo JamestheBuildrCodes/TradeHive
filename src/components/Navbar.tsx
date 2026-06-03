@@ -35,7 +35,7 @@ export default function Navbar() {
           <span className="grid place-items-center w-9 h-9 rounded-xl glow-ring text-[var(--th-primary)] hover-rotate">
             <HiveLogo width={22} height={22} />
           </span>
-          <span className="text-lg tracking-tight">Trade<span className="th-gradient-text">Hive</span></span>
+          <span className="text-lg tracking-tight">Tick<span className="th-gradient-text">rr</span></span>
         </a>
 
         <ul className="hidden md:flex items-center gap-7 text-sm text-[var(--th-muted)]">
@@ -52,7 +52,7 @@ export default function Navbar() {
           <a href="#waitlist" className="text-sm text-[var(--th-muted)] hover:text-[var(--th-text)] transition-colors">
             Sign in
           </a>
-          <a href="#waitlist" className="btn-primary text-sm">Join the hive</a>
+          <a href="/signup" className="btn-primary text-sm">Sign Up</a>
         </div>
 
         <button
@@ -84,8 +84,8 @@ export default function Navbar() {
               </li>
             ))}
             <li className="p-2">
-              <a href="#waitlist" onClick={() => setOpen(false)} className="btn-primary w-full justify-center">
-                Join the hive
+              <a href="/signup" onClick={() => setOpen(false)} className="btn-primary w-full justify-center">
+                Sign Up
               </a>
             </li>
           </ul>

@@ -160,3 +160,20 @@ export function Sparkle(props: IconProps) {
     </svg>
   );
 }
+
+export function Eye(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
+
+export function EyeOff(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9.9 5.1C10.6 5 11.3 5 12 5c7 0 10 7 10 7s-1 2.3-2.9 4.1M5.1 5.1C3.2 6.9 2 9.3 2 12s1.2 5.1 3.1 6.9M9.9 18.9c.7.1 1.4.1 2.1.1 7 0 10-7 10-7s-1-2.3-2.9-4.1M2 2l20 20" />
+    </svg>
+  );
+}

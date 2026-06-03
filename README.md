@@ -1,14 +1,14 @@
-# TradeHive 🐝
+# Tickrr 🐝
 
 **The social trading platform where traders learn, talk, and trade together.**
 
-TradeHive blends a social network (feed, chats, Spaces, forums), trading tools
+Tickrr blends a social network (feed, chats, Spaces, forums), trading tools
 (TradingView charts, journal, copy trading, signals, backtesting) and an AI chart
 co-pilot — across **Forex, Crypto, Synthetics & Stocks**. The trust wedge is
 **verified track records + global rankings**, so the people you follow have actually
 earned it.
 
-This repo is the marketing landing page + waitlist backend, built with Next.js.
+This repo is the marketing landing page + signup backend, built with Next.js.
 
 ## Tech stack
 
@@ -34,7 +34,7 @@ src/
     layout.tsx           # fonts, metadata, ambient background
     page.tsx             # landing page composition
     globals.css          # design tokens, keyframes, animation utilities
-    api/waitlist/route.ts# POST/GET waitlist endpoint (file-backed)
+    api/signup/route.ts# POST/GET signup endpoint (file-backed)
   components/
     Hero, Features, Leaderboard, Heatmap, Spotlight, Pricing,
     CreatorMonetization, Faq, FinalCta, Footer, Navbar ...
@@ -69,6 +69,6 @@ See [`PROMPTS.md`](./PROMPTS.md) for copy-paste prompts:
 
 ## Disclaimer
 
-Trading involves substantial risk of loss. TradeHive provides social, educational and
+Trading involves substantial risk of loss. Tickrr provides social, educational and
 informational tools only — **not investment advice**. Past performance is not
 indicative of future results.

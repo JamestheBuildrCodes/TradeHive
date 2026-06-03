@@ -1,4 +1,4 @@
-# TradeHive — Copy-Paste Prompts
+# Tickrr — Copy-Paste Prompts
 
 Two ready-to-use prompts:
 1. **Claude animation prompt** — to generate/iterate 2D website animations.
@@ -13,7 +13,7 @@ Two ready-to-use prompts:
 > and tweak timings.
 
 ```
-You are a senior front-end animation engineer. I'm building "TradeHive", a dark,
+You are a senior front-end animation engineer. I'm building "Tickrr", a dark,
 premium social-trading web app (Next.js + TypeScript + Tailwind v4). Brand accent
 is emerald-green (#16D6A3) with a sky-blue (#0EA5E9) and amber (#F5B53C) secondary.
 The vibe is sleek, data-driven, fintech — think TradeZella but more social.
@@ -30,7 +30,7 @@ Hard requirements:
 - No external animation libraries — vanilla CSS + minimal IntersectionObserver only.
 - Mobile-safe and 60fps.
 
-Generate these effects, themed for TradeHive:
+Generate these effects, themed for Tickrr:
 1. Floating/bounce loop for hero "cards" (trader stat card, AI co-pilot card) that
    gently drift on the Y axis at different speeds.
 2. Fade-up-on-scroll for sections/cards using IntersectionObserver, with a stagger
@@ -70,7 +70,7 @@ pricing cards to fade-up and stagger, and the 'Most popular' card to pulse-glow"
 > export to Figma or code. Keep prompts concrete about layout, components, and tokens.
 
 ```
-Design a modern, dark-themed web app called "TradeHive" — a social platform for
+Design a modern, dark-themed web app called "Tickrr" — a social platform for
 traders that blends a social network (feed, chats, forums), trading tools
 (TradingView charts, journal, copy trading, signals) and an AI chart co-pilot.
 

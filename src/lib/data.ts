@@ -192,7 +192,7 @@ export const plans: Plan[] = [
     name: "Free",
     price: "$0",
     period: "forever",
-    blurb: "Join the hive and find your people.",
+    blurb: "Join Tickrr and find your people.",
     features: [
       "Social feed, follows & public chats",
       "1 connected account",
@@ -252,11 +252,11 @@ export type Faq = { q: string; a: string };
 export const faqs: Faq[] = [
   {
     q: "How are track records verified?",
-    a: "You connect your broker (MT4/MT5 via MetaApi) or exchange with read-only API keys. TradeHive computes your P&L, win-rate, expectancy and drawdown directly from trade history — no screenshots, no edits.",
+    a: "You connect your broker (MT4/MT5 via MetaApi) or exchange with read-only API keys. Tickrr computes your P&L, win-rate, expectancy and drawdown directly from trade history — no screenshots, no edits.",
   },
   {
-    q: "Is TradeHive a broker? Do you hold my funds?",
-    a: "No. TradeHive never holds or custodies funds. We connect to your existing broker or exchange. Copy trading executes through their APIs with risk controls you set.",
+    q: "Is Tickrr a broker? Do you hold my funds?",
+    a: "No. Tickrr never holds or custodies funds. We connect to your existing broker or exchange. Copy trading executes through their APIs with risk controls you set.",
   },
   {
     q: "Which markets are supported?",
@@ -264,7 +264,7 @@ export const faqs: Faq[] = [
   },
   {
     q: "How does creator monetization work?",
-    a: "Verified creators run paid subscriptions, private rooms and tipping in Spaces. You set your price; TradeHive takes a small platform fee and handles payouts.",
+    a: "Verified creators run paid subscriptions, private rooms and tipping in Spaces. You set your price; Tickrr takes a small platform fee and handles payouts.",
   },
   {
     q: "What is Trade Delay Protection?",
