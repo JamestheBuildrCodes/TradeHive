@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar";
-import SignUpForm from "@/components/SignUpForm";
+import SignInForm from "@/components/SignInForm";
 import Footer from "@/components/Footer";
 import { HiveLogo } from "@/components/icons";
 import Link from "next/link";
 
-export default function SignUpPage() {
+export default function SignInPage() {
   return (
     <>
       <Navbar />
@@ -18,14 +18,14 @@ export default function SignUpPage() {
               <span className="text-xl tracking-tight">Tick<span className="th-gradient-text">rr</span></span>
             </Link>
             <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-3">
-              Create your account
+              Welcome back
             </h1>
             <p className="text-[var(--th-muted)]">
-              Join Tickrr and start trading with verified track records, global rankings, and AI-powered insights.
+              Sign in to access your Tickrr account and continue trading with verified track records.
             </p>
           </div>
 
-          <SignUpForm />
+          <SignInForm />
         </div>
       </main>
       <Footer />
